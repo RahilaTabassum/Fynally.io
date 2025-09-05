@@ -1,0 +1,64 @@
+.employment {
+  padding: 2rem;
+  text-align: center;
+}
+
+.employment h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #ccc;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.job-card {
+  background: #2b2b2b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #6c63ff;
+}
+
+.job-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #ddd;
+}
+
+.job-card .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #6c63ff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.job-card .btn:hover {
+  background: #5548d9;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
